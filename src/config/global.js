@@ -115,14 +115,6 @@ export default {
     {
       tema:
         '2. Instalación y configuración de herramientas de pruebas de rendimiento.',
-      referencia: 'Torres. A. (2020). <i>Instalar JDK java en Windows 10</i>.',
-      tipo: 'Pasos de Instalación (Documento)',
-      link:
-        'https://www.ingenieriazeros.com/2021/05/instalar-jdk-java-en-windows-10.html',
-    },
-    {
-      tema:
-        '2. Instalación y configuración de herramientas de pruebas de rendimiento.',
       referencia: 'Oracle. (s.f.). <i>Descargas de Java</i>.',
       tipo: 'Web',
       link:
@@ -254,8 +246,7 @@ export default {
     },
     {
       referencia: 'Torres. A. (2020). <i>Instalar JDK java en Windows 10</i>. ',
-      link:
-        'https://www.ingenieriazeros.com/2021/05/instalar-jdk-java-en-windows-10.html',
+      link: '',
     },
   ],
   creditos: [
@@ -278,37 +269,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Danny Alejandro Solano Concha',
-          cargo: 'Experto temático',
-          centro:
-            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
-        },
-        {
           nombre: 'Peter Emerson Pinchao Solis',
           cargo: 'Experto temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
-          nombre: 'María Fernanda Chacón Castro',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesor metodológico',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable equipo desarrollo curricular',
+          nombre: 'Danny Alejandro Solano Concha',
+          cargo: 'Experto temático',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrección de estilo',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Paola Alexandra Moya',
@@ -328,11 +298,6 @@ export default {
         {
           nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

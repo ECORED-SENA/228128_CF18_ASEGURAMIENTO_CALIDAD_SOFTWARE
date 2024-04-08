@@ -12,7 +12,7 @@
         .p-4
           .row.align-items-center
             .col.order-2.order-lg-1
-              p.text-white.mb-0 Bienvenidos a este componente formativo, en el que se abordará el Diseño de pruebas de carga. En la industria del #[i software], existe una alta demanda de personal capacitado para determinar las características de rendimiento que presentan los productos o las que se desearían que tuvieran.
+              p.text-white.mb-0 Bienvenidos a este componente formativo, en el que se abordará el diseño de pruebas de carga. En la industria del #[i software], existe una alta demanda de personal capacitado para determinar las características de rendimiento que presentan los productos o las que se desearían que tuvieran.
             .col-md-auto.order-1.order-lg-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/intro/img1.png', style="width:110px", alt='').m-auto

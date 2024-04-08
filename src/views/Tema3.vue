@@ -61,7 +61,7 @@
           .row.justify-content-center.align-items-center(titulo="Definición casos de pruebas")
             .col-lg-9.mb-4.mb-lg-0
               p.text-white #[b Definición casos de pruebas]
-              p.text-white.mb-0 Esta etapa, la más analítica, involucra definir la carga de trabajo esperada como referencia (número de conexiones, solicitudes, etc.), y establecer objetivos de rendimiento basados en la percepción del usuario, que pueden concretarse en acuerdos de nivel de servicio. También requiere seleccionar los subsistemas a testear, considerando la variedad de procesos de negocio y estimar el flujo de negocio para las pruebas. Adicionalmente, se puede realizar un benchmark, comparando la carga esperada en la aplicación con software similar en tecnología y condiciones.
+              p.text-white.mb-0 Esta etapa, la más analítica, involucra definir la carga de trabajo esperada como referencia (número de conexiones, solicitudes, etc.), y establecer objetivos de rendimiento basados en la percepción del usuario, que pueden concretarse en acuerdos de nivel de servicio. También requiere seleccionar los subsistemas a #[i testear], considerando la variedad de procesos de negocio y estimar el flujo de negocio para las pruebas. Adicionalmente, se puede realizar un #[i benchmark], comparando la carga esperada en la aplicación con #[i software] similar en tecnología y condiciones.
             .col-lg-auto
               figure
                 img(src='@/assets/curso/tema3/img5.svg', style="width:150px", alt='').m-auto

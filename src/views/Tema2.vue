@@ -25,13 +25,13 @@
                 .col-auto
                   img(src='@/assets/curso/tema2/img3.png' alt='AvatarTop')
               p #[b JMETER]
-              p.mb-0 Apache JMeter es una destacada herramienta de código abierto para pruebas de rendimiento y estrés de aplicaciones web, desarrollada por la fundación Apache Software. Permite generar alta carga para facilitar el análisis de rendimiento y está disponible para descarga gratuita en su página oficial.
+              p.mb-0 Apache JMeter es una destacada herramienta de código abierto para pruebas de rendimiento y estrés de aplicaciones #[i web], desarrollada por la fundación #[i Apache Software]. Permite generar alta carga para facilitar el análisis de rendimiento y está disponible para descarga gratuita en su página oficial.
             .tarjeta.color-acento-botones1.p-4
               .row.mb-3
                 .col-auto
                   img(src='@/assets/curso/tema2/img4.png' alt='AvatarTop')
               p #[b HP LoadRunner]
-              p.mb-0 Hewlett-Packard ofrece una alternativa para pruebas de rendimiento y estrés con dos versiones: una de pago en modo SaaS y una gratuita con funcionalidades limitadas en su edición Community.
+              p.mb-0 Hewlett-Packard ofrece una alternativa para pruebas de rendimiento y estrés con dos versiones: una de pago en modo SaaS y una gratuita con funcionalidades limitadas en su edición #[i Community].
             .tarjeta.color-acento-botones1.p-4
               .row.mb-3
                 .col-auto
@@ -50,7 +50,7 @@
                   img(src='@/assets/curso/tema2/img7.png' alt='AvatarTop')
               p #[b WebLOAD]
               p.mb-0 RadView ofrece una alternativa en herramientas de pruebas de rendimiento que destaca por su integridad y escalabilidad. Facilita la simulación de miles de usuarios de manera concurrente o simultánea para identificar puntos de inflexión y cuellos de botella.
-    p.mb-5(data-aos="fade-down") Enseguida, realizaremos un ejercicio de instalación. Se ha seleccionado JMeter como herramienta de pruebas debido a que es gratuita, de acceso rápido e intuitiva en su uso. No obstante, es necesario preparar un ambiente web para realizar las pruebas, por lo que se necesita instalar Java.
+    p.mb-5(data-aos="fade-down") Enseguida, realizaremos un ejercicio de instalación. Se ha seleccionado JMeter como herramienta de pruebas debido a que es gratuita, de acceso rápido e intuitiva en su uso. No obstante, es necesario preparar un ambiente #[i web] para realizar las pruebas, por lo que se necesita instalar Java.
     .row.justify-content-center.mb-5
       .col-md-8.col-lg-2.bg-c16(data-aos="fade-right")
         .p-4
