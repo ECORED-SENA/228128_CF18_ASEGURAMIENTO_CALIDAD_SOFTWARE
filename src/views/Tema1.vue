@@ -321,7 +321,7 @@
     p.mb-5(data-aos="fade-down") Una prueba de rendimiento tiene como objetivo evaluar el comportamiento de la aplicación en un entorno de producción cuando se enfrenta a una gran demanda de uso (grandes cantidades de peticiones y transacciones). Existe una amplia variedad de pruebas de este tipo; no obstante, solo se explorarán las siguientes:
     figure(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/oNY2a2_yOps?si=C1fChRF7eX597J1V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/oNY2a2_yOps" title="Pruebas de rendimiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_1_2
     .titulo-segundo.color-acento-contenido
