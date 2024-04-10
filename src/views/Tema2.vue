@@ -74,34 +74,54 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
       .row(titulo="Instalar Jmeter")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/dhZW0koSxZY" title="Instalar Jmeter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Caso de prueba")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/nx9Ow1RvOSg" title="Caso de prueba" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Primer plan de pruebas con interfaz Jmeter")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/x2Mbr5WpjZ0" title="Primer plan de pruebas con Interfaz Jmeter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Identificar el proxy")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/VPFx6CinvsQ" title="Identificar el proxy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Correr el proxy")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/buH54GZ9BI4" title="Correr el proxy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Peticiones en Jmeter")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/jbQyZus4cm8" title="Peticiones en Jmeter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Guardar el Script y reconfigurar")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/heLRLpeqzks" title="Guardar el Script y reconfigurar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Árbol de resultados para ejecutar hilos")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/trlfnQIknKs" title="Árbol de resultados para ejecutar hilos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Receptor de informe agregado")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/jY0A6ikHWD0" title="Receptor de informe agregado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row(titulo="Simular comportamientos del Script")
         .col-12
-          p.mb-0 
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/HE0sQjPO50g" title="Simular comportamientos del script" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
