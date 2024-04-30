@@ -24,7 +24,7 @@
               figure
                 img(src='@/assets/curso/tema1/img1.svg', style="width:90px", alt='').m-auto
             .col
-              p.mb-0 Es importante tener en cuenta que este tipo de #[i testing] minimiza el aseguramiento de la calidad del servicio, ya que no simula el posible potencial de carga y la aleatoriedad de las peticiones que puede recibir la aplicación en un entorno productivo, lo que imposibilita encontrar cuellos de botella en algún componente, modulo o flujo del aplicativo, haciendo que las oportunidades de mejora y escalabilidad disminuyan y los problemas asociados al rendimiento aumenten el tiempo, dinero y la improvisación de soluciones para el equipo de desarrollo.  En este punto se debe realizar un adecuado plan de pruebas de carga para evaluar la escalabilidad y así poder brindar soluciones adecuadas en el momento correcto.
+              p.mb-0 Es importante tener en cuenta que este tipo de #[i testing] minimiza el aseguramiento de la calidad del servicio, ya que no simula el posible potencial de carga y la aleatoriedad de las peticiones que puede recibir la aplicación en un entorno productivo, lo que imposibilita encontrar cuellos de botella en algún componente, módulo o flujo del aplicativo, haciendo que las oportunidades de mejora y escalabilidad disminuyan y los problemas asociados al rendimiento aumenten el tiempo, dinero y la improvisación de soluciones para el equipo de desarrollo.  En este punto se debe realizar un adecuado plan de pruebas de carga para evaluar la escalabilidad y así poder brindar soluciones adecuadas en el momento correcto.
     p.mb-5(data-aos="fade-left") Antes de profundizar en los aspectos centrales de este tema, es importante comprender algunos conceptos fundamentales relacionados con los requisitos técnicos del diseño de cargas. Revisemos, entonces, los términos de escalabilidad y evaluación comparativa.
     .row.justify-content-center.mb-5
       .col-md-8.col-lg-5.bg-c5(data-aos="fade-right")
@@ -49,7 +49,7 @@
           figure.mb-3
             img(src='@/assets/curso/tema1/img5.svg', style="width:160px", alt='').m-auto
           p #[b Aumentar las capacidades y la potencia del #[i hardware]]
-          p.mb-0 Ejemplo: pasar de una máquina con 16 GB de memoria RAM y un disco duro mecánico de 500 GB a una máquina de 32 GB de RAM y un disco duro de estado sólido de 1TB.
+          p.mb-0 Ejemplo: pasar de una máquina con 16 GB de memoria RAM y un disco duro mecánico de 500 GB a una máquina de 32 GB de RAM y un disco duro de estado sólido de 1 TB.
     p.mb-5(data-aos="fade-right") #[b Es importante conocer que la escalabilidad también se clasifica en vertical y horizontal, tal como se explica a continuación:]
     .row.mb-4
       .col-auto.bg-c9(data-aos="fade-down")
@@ -146,7 +146,7 @@
                       img(src='@/assets/curso/tema1/img6.svg', style="width:50px" alt='').m-auto
                   .col
                     h3 Acuerdo de Nivel de Servicio SLA
-          p.mb-5(data-aos="fade-right") Los Acuerdos de Nivel de Servicio (Service Level Agreements, SLA) representan una de las primeras maneras de definir las metas que los sistemas deben alcanzar. #[b Pero, ¿qué es un SLA?, ¿qué determina? y ¿cuáles son sus ventajas? Para responder a estas preguntas, lo invitamos a revisar el siguiente recurso:]
+          p.mb-5(data-aos="fade-right") Los Acuerdos de Nivel de Servicio (#[i Service Level Agreements], SLA) representan una de las primeras maneras de definir las metas que los sistemas deben alcanzar. #[b Pero, ¿qué es un SLA?, ¿qué determina? y ¿cuáles son sus ventajas? Para responder a estas preguntas, lo invitamos a revisar el siguiente recurso:]
           .row.align-items-center.mb-5
             .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
               AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -265,14 +265,14 @@
           .row.justify-content-center.align-items-center(titulo="Tiempo de carga")
             .col-lg-6.mb-4.mb-lg-0
               p.text-white #[b Tiempo de carga]
-              p.text-white.mb-0 Tiempo que transcurre entre la solicitud y la respuesta de lectura de información que se busca dentro de los componentes de almacenamiento, ya sea de largo plazo como el disco duro o de corto plazo como la memoria RAM. También es posible aplicarlo a los procesos de asignación de memoria inicial la cual es reservada para ser usada durante un proceso por el programa (IEEE, 2000).
+              p.text-white.mb-0 Tiempo que transcurre entre la solicitud y la respuesta de lectura de información que se busca dentro de los componentes de almacenamiento, ya sea de largo plazo como el disco duro o de corto plazo como la memoria RAM. También es posible aplicarlo a los procesos de asignación de memoria inicial, la cual es reservada para ser usada durante un proceso por el programa (IEEE, 2000).
             .col-lg-auto
               figure
                 img(src='@/assets/curso/tema1/img21.svg', style="width:150px", alt='').m-auto
           .row.justify-content-center.align-items-center(titulo="Tasa de errores")
             .col-lg-6.mb-4.mb-lg-0
               p.text-white #[b Tasa de errores]
-              p.text-white.mb-0 Meier y otros (2007) indican que es la relación entre el número de elementos erróneos que pueden ser bits, datos código o bloques, en una señal digital recibida y el número total de elementos emitidos durante un intervalo de tiempo determinado.
+              p.text-white.mb-0 Meier y otros (2007) indican que es la relación entre el número de elementos erróneos que pueden ser bits, datos, código o bloques, en una señal digital recibida y el número total de elementos emitidos durante un intervalo de tiempo determinado.
             .col-lg-auto
               figure
                 img(src='@/assets/curso/tema1/img22.svg', style="width:150px", alt='').m-auto
@@ -350,7 +350,7 @@
                 .tarjeta.color-acento-botones.p-3(x="14.5%" y="67.7%" numero="+")
                   p.mb-0 Inicia con un número bajo de usuarios, peticiones y/o transacciones; puede ser en un porcentaje de 10% de la capacidad que se cree soporta o se aspira para la aplicación y se va aumentando en pasos de valores enteros (al 20%, al 40%, etc.) hasta llegar al 100% de la capacidad que alcance la aplicación. Tomando muestras en cada nuevo paso de la respuesta observada.
                 .tarjeta.color-acento-botones.p-3(x="37.5%" y="67.7%" numero="+")
-                  p.mb-0 Este tipo de nivel de carga depende del anterior; dado que, es necesario comprender de antemano el punto crítico de falla de la aplicación, para llevar el test a valores por encima o por debajo durante un tiempo determinado que debe ir variando dependiendo de la estrategia que se desee analizar (horas pico de la aplicación, nivel más alto de carga, horas de la noche, entre otros).
+                  p.mb-0 Este tipo de nivel de carga depende del anterior; dado que, es necesario comprender de antemano el punto crítico de falla de la aplicación, para llevar el #[i test] a valores por encima o por debajo durante un tiempo determinado que debe ir variando dependiendo de la estrategia que se desee analizar (horas pico de la aplicación, nivel más alto de carga, horas de la noche, entre otros).
                 .tarjeta.color-acento-botones.p-3(x="60%" y="67.7%" numero="+")
                   p.mb-0 De la misma forma que el anterior modo, pero manteniendo el proceso por más tiempo a fin de simular un flujo constante de peticiones y/o transacciones.
                 .tarjeta.color-acento-botones.p-3(x="83.8%" y="67.7%" numero="+")
@@ -381,7 +381,7 @@
               AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
                 .row.align-items-center(titulo="Cuellos de botella")
                   .col-md.order-2.order-md-1
-                    p.mb-0 En sistemas, los recursos #[i hardware], #[i software] y la red pueden limitar el flujo de información y velocidad de transmisión, creando posibles cuellos de botella. Estos errores permiten a los testers identificar componentes problemáticos durante pruebas de carga y estrés, afectando el rendimiento y escalabilidad al limitar el procesamiento de información y conexiones de usuarios simultáneos.
+                    p.mb-0 En sistemas, los recursos #[i hardware], #[i software] y la red pueden limitar el flujo de información y velocidad de transmisión, creando posibles cuellos de botella. Estos errores permiten a los #[i testers] identificar componentes problemáticos durante pruebas de carga y estrés, afectando el rendimiento y escalabilidad al limitar el procesamiento de información y conexiones de usuarios simultáneos.
                   .col-md-auto.order-1.order-md-2.mb-4.mb-md-0
                     figure
                       img(src='@/assets/curso/tema1/img30.svg', style="width:90px", alt='').m-auto

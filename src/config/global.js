@@ -158,9 +158,9 @@ export default {
         'es un acuerdo escrito entre un proveedor de servicio y su cliente con objeto de fijar el nivel acordado para la calidad de dicho servicio.',
     },
     {
-      termino: '<em>Api</em>',
+      termino: 'Api',
       significado:
-        'la interfaz de programación de aplicaciones, es un conjunto de subrutinas, funciones y procedimientos que ofrece cierta biblioteca para ser utilizada por otro software como una capa de abstracción.',
+        'la interfaz de programación de aplicaciones, es un conjunto de subrutinas, funciones y procedimientos que ofrece cierta biblioteca para ser utilizada por otro <i>software</i> como una capa de abstracción.',
     },
     {
       termino: '<i>Cluster</i>',
@@ -231,8 +231,7 @@ export default {
     {
       referencia:
         'Mazano, J. l. (2017). <i>Informes SLA, evita problemas con Pandora FMS</i>. ',
-      link:
-        'https://web.archive.org/web/20180618152201/https://blog.pandorafms.org/es/informes-sla/',
+      link: '',
     },
     {
       referencia:
@@ -270,19 +269,19 @@ export default {
       autores: [
         {
           nombre: 'Peter Emerson Pinchao Solis',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Danny Alejandro Solano Concha',
-          cargo: 'Experto temático',
+          cargo: 'Evaluador Instruccional',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Paola Alexandra Moya',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud',
         },
       ],
@@ -292,27 +291,27 @@ export default {
       autores: [
         {
           nombre: 'Carlos Julián Ramírez Benítez',
-          cargo: 'Diseñador de contenidos digitales',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jhon Jairo Urueta Alvarez',
-          cargo: 'Desarrollador fullstack',
+          cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Edgar Mauricio Cortés García',
-          cargo: 'Actividad didáctica',
+          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y productor multimedia',
+          cargo: 'Animador y Productor Multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Animador y productor multimedia',
+          cargo: 'Animador y Productor Multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -337,12 +336,12 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
