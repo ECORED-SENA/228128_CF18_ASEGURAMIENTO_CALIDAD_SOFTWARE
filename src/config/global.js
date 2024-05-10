@@ -275,14 +275,14 @@ export default {
         },
         {
           nombre: 'Danny Alejandro Solano Concha',
-          cargo: 'Evaluador Instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Paola Alexandra Moya',
           cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Servicios de Salud',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
